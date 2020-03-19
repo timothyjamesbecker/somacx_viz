@@ -1,0 +1,82 @@
+#tab_var_map{
+    font-family:Lato;
+}
+
+.var_map_label{
+    display:block;
+    font-size:125%;
+    font-style: oblique;
+    font-stretch: ultra-expanded;
+}
+.var_map_row{
+    vertical-align:top;
+    display:inline-block;
+    height:300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-style:dotted;
+    border-radius:8px;
+    border-color:rgba(0,0,0,0.2);
+    border-width:2px;
+}
+
+.var_map_ln{
+    font-size:60%;
+}
+.var_map_spin_set{
+    padding:4px;
+    border-style:solid;
+    border-color: rgba(0,0,0,0.2);
+    border-radius:4px;
+}
+.var_map_spin_set:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+.var_map_mul{
+    width:16px;
+    height:12px;
+}
+.var_map_mag{
+    width:8px;
+    height:12px;
+}
+
+/* D3 place holder for var map
+ will need to make this more specific to avoid
+ name collisions in the overall application*/
+.var_map_rect{
+    fill: none;
+    pointer-events: all;
+}
+
+.var_map_circle{
+    cursor: move;
+}
+
+.axis{
+    shape-rendering: crispEdges;
+    font-size: 16px;
+}
+
+.axis tspan {
+    font-size: 9px;
+}
+
+.x.axis line, .x.axis path {
+    fill: none;
+    stroke: #000;
+    opacity: 0.3;
+}
+
+.y.axis line, .y.axis path {
+    fill: none;
+    stroke: #000;
+    opacity: 0.15;
+}
+
+.tooltip {
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    pointer-events: none;
+}

@@ -1,2 +1,2 @@
-# somacx_viz
-visualization tools for somacx
+# soMaCX_viz
+Interactive Visualization Interface for soMaCX

@@ -1,0 +1,56 @@
+body{
+    font-family:Lato;
+}
+a{
+    border-style:solid;
+    border-radius:4px;
+    border-color:rgba(0,0,0,0.25);
+    padding:4px;
+    margin:8px;
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    color:black;
+    width:80px;
+    background-color:rgba(0,0,0,0.0);
+}
+a:hover{
+    background-color:rgba(0,0,0,0.3);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#tab_controller{
+    font-family: Lato;
+}
+
+#file_upload{
+    border-style:solid;
+    border-radius:4px;
+    border-color:rgba(0,0,0,0.25);
+    padding:4px;
+    margin:8px;
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    color:black;
+    width:80px;
+    background-color:transparent;
+}
+#file_upload:hover{
+    background-color:rgba(0,0,0,0.3);
+}
+
+#container{
+    position:absolute;
+    right:200px;
+    top:20px;
+    display:inline;
+}
+
+#var_map{
+    alignment:top;
+}
+
